@@ -18,4 +18,6 @@ for item in changes:
     nomeArquivos.append(filename)
 
 
+
+
     print(filename)
