@@ -6,6 +6,10 @@ import git
  #   print(sys.stdin.file)
 repo = Repo
 
+
+
+
+
 for commit in repo.iter_commits('master'):
 	print(commit)  
 
