@@ -17,4 +17,6 @@ for item in changes:
             level=5)
     nomeArquivos.append(filename)
 
+
+
     print(filename)
