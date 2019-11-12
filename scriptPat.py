@@ -1,6 +1,7 @@
 
 import os
 import utils
+import sys
 from utils import debug, warn
 from git import git, diff_tree, file_exists
 from config import git_config
@@ -16,6 +17,5 @@ for item in changes:
             level=5)
     nomeArquivos.append(filename)
 
-    
 
     print(filename)
