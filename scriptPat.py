@@ -6,11 +6,3 @@ def Compare(path):
     else:
         return 0
 
-
-
-
-
-
-
-
-
