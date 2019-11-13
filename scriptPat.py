@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-import os
-def create():
-    Documents = os.popen("git diff --cached --name-status | cut -f2").read().splitlines()
-    for name in Documents:
-        print(name)
-    return sys_msg
-if  __name__ == '__main__':
-   create()
+def Compare(path):
+    div = path.split("/")
+    if div[len(div) - 1] == "teste.txt":
+        return 1
+    else:
+        return 0
+
 
 
 
