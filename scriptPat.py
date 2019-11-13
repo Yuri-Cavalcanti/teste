@@ -1,12 +1,10 @@
-import sys
-import git
-
-#for line in sys.stdin:
- #   local_ref, local_sha1, remote_ref, remote_sha1 = line.strip().split()
- #   print(sys.stdin.file)
-repo = git.repo(sys.stdin.local_ref)
-
-for commit in repo.iter_commits('master'):
-	print(commit.file)  
-
+#!/usr/bin/env python3
+import os
+def create():
+    Documents[] = os.popen("git diff --cached --name-status | cut -f2").read().splitlines()
+    for name in Documents:
+        print(name)
+    return sys_msg
+if  __name__ == '__main__':
+   create()
 
